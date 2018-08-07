@@ -1,4 +1,41 @@
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
     margin: 0;
-    background-color: aquamarine;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #ABA8B2; 
+    min-height: 70px;
+    text-align: right;
+    padding-top: 30px;
+    border-bottom: black 3px solid;
+    /* background-color: #5FB0B7; */
+}
+a {
+    color: #4C4B63;
+}
+section {
+    margin: 0;
+    background-color: #4C4B63;
+    /* font-family: myFont; */
+    /* 949396 */
+}
+h1 {
+    font-family: 'Kanit', cursive;
+}
+@font-face {
+    font-family: myFont;
+    src: "https://fonts.googleapis.com/css?family=Kanit|Montserrat";
+}
+#logo {
+    position: relative;
 }
