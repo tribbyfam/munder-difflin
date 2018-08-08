@@ -5,7 +5,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ABA8B2; 
-    overflow: hidden;
+    /* overflow: hidden;  */
 }
 
 .container {
@@ -21,11 +21,15 @@ header {
     height: 80px;
     min-height: 60px;
     padding-top: 10px;
+    display: inline-flex;
     /* background-color: #5FB0B7; */
 }
-
-#logo  {
-    color: black;    
+nav{
+    display: inline-flex;
+}
+ h1 #logo  {
+    color: black;  
+    float: left;  
     text-align: left;
     margin: 0;
     padding-top: 10px;
@@ -44,6 +48,8 @@ li {
 
 ul {
     list-style-type: none;
+    text-align: center;
+    float: right;
 }
 
 li a:hover {
@@ -66,7 +72,6 @@ li a:hover {
     font-weight: 900;
     padding-top: 20px;
     margin: o;
-
 }
 
 p {
@@ -86,11 +91,32 @@ img {
 }
 
 #boxes .box {
- 
     float: left;
     width: 30%;
     padding: 20px 10px 20px 10px;
     text-align: center;
+}
+
+.price {
+    display: none;
+}
+
+#custom {
+    height: 35px;
+    width: 95px;
+    padding: 8px;
+    background-color: #4C4B63;
+    border-radius: 5px;
+    font-size: 12px;
+    position: relative;
+    animation-name: moveCustom;
+    animation-delay: 2s;
+    animation-duration: 4s;
+}
+
+@keyframes moveCustom {
+    0% {background-color: #4C4B63; left: 0px;}
+    100% {background-color: rgb(219, 230, 72); left: 560px;}
 }
 
 /* footer styling */
