@@ -11,6 +11,8 @@ body {
     margin: auto;
     overflow: hidden;
 }
+
+/* header styling */
 header {
     margin: 0;
     min-height: 60px;
@@ -49,9 +51,11 @@ header a:hover {
     font-weight: bold;
 }
 
-.main {
-    min-height: 180px;
+/* sections styling */
+#main {
+    height: 180px;
     text-align: center;
+    background-color: #4C4B63;
 }
 
 h2 {
@@ -64,12 +68,50 @@ p {
     font-size: 15px;
 }
 
-section {
-    margin: 0;
+img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #4C4B63;
+}
+
+#boxes {
+    margin: 20px;
+    border: 2px solid #4C4B63;
+
+}
+
+#boxes .box {
+    height: 250px;
+    float: left;
+    width: 30%;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+/* footer styling */
+footer {
     background-color: #4C4B63;
-    /* font-family: myFont; */
+}
+
+#footer {
+    height: 80px;;
+    font-size: 10px;
+}
+
+.btn #email {
+    height: 30px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #ABA8B2;
+    float: left;
+}
+
+#email {
+    width: 150px;
+    margin: 20px;
     
 }
+
 
 @font-face {
     font-family: "fontText";
