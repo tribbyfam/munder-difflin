@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', Tahoma, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.2;
     padding: 0;
@@ -18,65 +18,69 @@ body {
 header {
     margin: 0;
     color: #4C4B63;
-    height: 80px;
+    height: 60px;
     min-height: 60px;
     padding-top: 10px;
     display: inline-flex;
     /* background-color: #5FB0B7; */
 }
-nav{
+nav {
+    margin: 0;
     display: inline-flex;
+    font-family: 'Kanit', sans-serif;
+    display: inline-block;
 }
+
 header #logo  {
     color: #4C4B63;
     float: left;  
-
+    font-weight: bolder;
     padding: 10px 60px 10px 20px;
     width: 80%;
-    font-family: 'Pacifico' cursive;
+    font-family: 'Pacifico', cursive;
 }
 
-li {
+.go {
+    overflow: hidden;
+  
+}
+
+.go a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
-    margin-bottom: 40px; 
-    padding: 10px 20px 20px 20px;
-    right:800px;
-}
-
-
-ul li {
-    list-style-type: none;
-    text-align: center;
+    padding: 10px;
     float: right;
     color: #4C4B63;
     font-weight: bold;
     font-size: 18px;
-    float: right;
-   
 }
 
-li a:hover {
+.go a.active {
+    background-color: #4C4B63;
+    color: white;
+}
+
+.go a:hover {
+    text-align: center;
     color: purple;
     font-weight: bold;
 }
 
 /* sections styling */
 #main {
-    height: 180px;
+    height: 160px;
     text-align: center;
     background-color: #4C4B63;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
 
-#main h2 {
-    font-family: 'Kanit', cursive;
-    font-size: 40px;
+main h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
     font-weight: 900;
-    padding-top: 20px;
-    margin: o;
+    padding-top: 0px;
+    margin: 15px;
 }
 
 p {
@@ -91,7 +95,7 @@ img {
 }
 
 #boxes {
-    margin: 20px;
+    margin: 20px 20px 10px 20px;
     border: 2px solid #4C4B63;
 }
 
@@ -107,6 +111,7 @@ img {
 }
 
 #custom {
+    margin: 0 0 5px 0;
     height: 35px;
     width: 95px;
     padding: 8px;
@@ -126,13 +131,13 @@ img {
 
 /* footer styling */
 footer {
+    margin: 0;
     background-color: #4C4B63;
     border-top: 2px solid black;
-    height: 150px;
+    height: 100px;
 }
 
-#footer {
-    height: 50px;;
+#footer{    
     font-size: 10px;
     padding-left: 20px; 
 }
@@ -151,10 +156,7 @@ footer {
     
 }
 
-
-@font-face {
-    font-family: "fontText";
-    src: url("https://fonts.googleapis.com/css?family=Kanit|Montserrat");
-    font-family: "fontLogo";
-    src: url("https://fonts.googleapis.com/css?family=Pacifico");
+#address {
+    margin: 0;
+    text-align: center;
 }
