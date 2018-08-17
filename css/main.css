@@ -9,12 +9,12 @@ body {
 }
 
 .all {
-
     margin: auto;
     height: 600px;
     overflow: hidden;
 }
 .all:nth-child(odd){
+    border-top: black 2px solid;
     background-color: #ABA8B2;
 }
 .all:nth-child(even){
@@ -22,55 +22,49 @@ body {
 }
 
 /* header styling */
-header {
-    margin: 0;
-    color: #4C4B63;
-    height: 60px;
-    min-height: 60px;
-    padding-top: 10px;
-    display: inline-flex;
-}
 
-nav {
-    margin: 0;
-    display: inline-flex;
+#navbar #logo .go {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbar {
     font-family: 'Kanit', sans-serif;
-    display: inline-block;
 }
 
-header #logo  {
+#navbar #logo  {
     color: #ABA8B2;
     float: left;  
+    margin: 0 0 0 30px;
     font-weight: bolder;
-    padding: 10px 60px 10px 20px;
-    width: 80%;
+    padding: 25px 60px 40px 20px;
+    width: 60%;
     font-family: 'Pacifico', cursive;
 }
 
-.go {
+#navbar .go {
     overflow: hidden;
-  
+    display: flex;
+    height: 80px;
+
 }
 
-.go a {
+#navbar .go a {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px;
-    border: #4C4B63 1px solid;
+    padding: 30px;
+    display: block;
+    text-align: center;
     float: right;
     color: #ABA8B2;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
 }
 
-.go a.active {
-    background-color: #4C4B63;
-    color: white;
-}
 
-.go a:hover {
+#navbar .go a:hover {
     text-align: center;
-    color: purple;
+    color: rgb(150, 80, 150);
     font-weight: bold;
 }
 
@@ -151,8 +145,8 @@ img {
 
 #custom {
     margin: 20px 0 5px 0;
-    height: 35px;
-    width: 95px;
+    height: 45px;
+    width: 120px;
     padding: 8px;
     background-color: #ABA8B2;
     border-radius: 5px;
@@ -165,7 +159,7 @@ img {
 
 @keyframes moveCustom {
     0% {background-color: #4C4B63; left: 0px;}
-    100% {background-color: rgb(189, 174, 42); left: 550px;}
+    100% {background-color: rgb(150, 80, 150); left: 550px;}
 }
 
 .hide {
@@ -181,25 +175,26 @@ footer {
     background-color: #4C4B63;
     border-top: 2px solid black;
     height: 100px;
+    font-size: 12px;
 }
 
-#footer{    
+#copyright{    
     font-size: 10px;
     padding-left: 20px; 
 }
 
 .btn #email {
-    height: 30px;
-    margin: 20px;
+
     padding: 5px;
     background-color: #ABA8B2;
     float: left;
 }
 
 #email {
-    width: 150px;
+    width: 250px;
+    height: 30px;
     margin: 20px;
-    
+    border-radius: 5px;
 }
 
 #address {
