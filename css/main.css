@@ -9,7 +9,7 @@ body {
 }
 
 .all {
-    width: 80%;
+
     margin: auto;
     height: 600px;
     overflow: hidden;
@@ -114,9 +114,12 @@ p {
 }
 
 img {
-    height: 200px;
-    width: 200px;
-    border-radius: 4px;
+    height: 250px;
+    width: 250px;
+    border-radius: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     /* border: 1px solid #4C4B63; */
 }
 
@@ -128,7 +131,7 @@ img {
 #boxes .box {
     float: left;
     width: 30%;
-    padding: 55px 10px 20px 10px;
+    padding: 55px 8px 20px 8px;
     text-align: center;
 }
 
@@ -175,7 +178,7 @@ img {
 /* footer styling */
 footer {
     margin: 0;
-    background-color: #ABA8B2;
+    background-color: #4C4B63;
     border-top: 2px solid black;
     height: 100px;
 }
