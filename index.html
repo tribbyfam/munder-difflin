@@ -17,9 +17,9 @@
 <nav id="navbar">
     <h1 id="logo">M.D. Co</h1>
     <div class="go">   
-        <a class="home" href="#navbar">Home</a>
+        <a class="home" href="#main">Home</a>
         <a href="#about">About</a>
-        <a href="#email">Contact</a>     
+        <a href="#form">Contact</a>     
     </div>    
 </nav>
 <main>
@@ -66,7 +66,7 @@
 </main>
 
 <footer>
-    <div>
+    <div id="form">
         <form action="/action_page.php">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -74,9 +74,12 @@
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
             <input type="submit" value="Submit">
-        </form>        
-        <p id="copyright">Copyright &copy; 2018 </p>
-        <p id="address">120 Broadway<br>New York, NY 10471</p>
+        </form>
+        <div class="row">
+            <p class = "column" id="copyright">Copyright &copy; 2018 </p>
+            <p class = "column" id="address">120 Broadway<br>New York, NY 10471</p>
+        </div>        
+        
     </div> -->
 </footer>
 
