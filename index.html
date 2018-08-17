@@ -66,18 +66,20 @@
 </main>
 
 <footer>
-    <form>
-        <input id="email" type="email" placeholder="subscribe">
-        <button class="btn">Submit</button>
-    </form>
-    <p id="copyright">Copyright &copy; 2018 </p>
-    <p id="address">120 Broadway<br>New York, NY 10471</p>
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <input type="submit" value="Submit">
+        </form>        
+        <p id="copyright">Copyright &copy; 2018 </p>
+        <p id="address">120 Broadway<br>New York, NY 10471</p>
+    </div> -->
 </footer>
 
-    
-
-
-
-    <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
