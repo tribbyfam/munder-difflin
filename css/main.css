@@ -23,13 +23,14 @@ body {
 
 /* header styling */
 
-#navbar #logo .go {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 #navbar {
     font-family: 'Kanit', sans-serif;
+    position: fixed;
+    border-bottom: 2px solid black;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #4C4B63;
 }
 
 #navbar #logo  {
@@ -61,7 +62,6 @@ body {
     font-size: 22px;
 }
 
-
 #navbar .go a:hover {
     text-align: center;
     color: rgb(150, 80, 150);
@@ -70,11 +70,12 @@ body {
 
 /* sections styling */
 #main {
-    height: 220px;
+    height: 260px;
     text-align: center;
     background-color: #ABA8B2;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
+    padding-top: 100px;
 }
 h2 {
     font-size: 50px;
@@ -99,7 +100,8 @@ h4 {
     text-align: center;
 }
 p {
-    font-size: 15px;
+    font-size: 22px;
+    padding: 15px;
 }
 #statement li {
     font-size: 18px;
