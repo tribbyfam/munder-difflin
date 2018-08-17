@@ -82,17 +82,35 @@ header #logo  {
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
-
-main h2 {
-    font-family: 'Pacifico', cursive;
+h2 {
     font-size: 50px;
-    font-weight: 900;
-    padding-top: 30px;
-    margin: 15px;
 }
 
+h2, h3{
+    font-family: 'Pacifico', cursive;
+    font-weight: 900;
+    padding-top: 20px;
+    margin: 15px;
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 900;
+    padding: 15px 20px 15px 20px;
+    margin: 15px;
+    text-align: center;
+}
 p {
     font-size: 15px;
+}
+#statement li {
+    font-size: 18px;
+    padding: 8px;
+    margin: 0;
 }
 
 img {
@@ -110,7 +128,7 @@ img {
 #boxes .box {
     float: left;
     width: 30%;
-    padding: 20px 10px 20px 10px;
+    padding: 55px 10px 20px 10px;
     text-align: center;
 }
 
@@ -129,7 +147,7 @@ img {
 }
 
 #custom {
-    margin: 0 0 5px 0;
+    margin: 20px 0 5px 0;
     height: 35px;
     width: 95px;
     padding: 8px;
