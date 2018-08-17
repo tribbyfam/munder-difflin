@@ -14,7 +14,7 @@
 // }
 
 let tracker1 = 'image1';
-function change(){
+function change1(){
     let image = document.getElementById('flip1');
 
     if(tracker1 == 'image1'){
@@ -26,21 +26,22 @@ function change(){
     } 
 }
 
-let tracker2 = 'image1'
-function change(){
-    let image = document.getElementById('flip2');
+let timer = setInterval('change1()', 2000);
 
-    if(tracker2 == 'image1'){
-        image.src="images/off-sch-binder.jpeg"
-        tracker2 = 'image2'
-    } else {
-        image.src="./images/off-sch-notepads.jpg"
-        tracker2 = 'image1'
-    }
+// let tracker2 = 'image1'
+// function change2(){
+//     let image = document.getElementById('flip2');
 
-//     function change(){
+//     if(tracker2 == 'image1'){
+//         image.src="images/off-sch-binder.jpeg"
+//         tracker2 = 'image2'
+//     } else {
+//         image.src="./images/off-sch-notepads.jpg"
+//         tracker2 = 'image1'
+//     }
+
+//     function change2(){
 //         let image = document.getElementById('flip3');
-//         let tracker = 'image1';
 
 //     if(tracker == 'image1'){
 //         image.src="images/off-sch-binder.jpeg"
